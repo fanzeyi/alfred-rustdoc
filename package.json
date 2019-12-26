@@ -1,0 +1,10 @@
+{
+  "name": "alfred-rust",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "vm2": "^3.8.4"
+  }
+}

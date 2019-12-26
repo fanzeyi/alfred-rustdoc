@@ -61,10 +61,10 @@ search index file][nom-search-index]). Please let me know if there is an
 alternative way to acquire the search index without actually executing any
 remote code. 
 
-[initSearch](https://github.com/rust-lang/rust/blob/master/src/librustdoc/html/static/main.js#L528)
-[rust](https://github.com/rust-lang/rust)
-[vm2](https://github.com/patriksimek/vm2)
-[nom-search-index](https://docs.rs/nom/5.0.1/search-index-20190820-1.39.0-nightly-bea0372a1.js)
+[initSearch]: https://github.com/rust-lang/rust/blob/master/src/librustdoc/html/static/main.js#L528
+[rust]: https://github.com/rust-lang/rust
+[vm2]: https://github.com/patriksimek/vm2
+[nom-search-index]: https://docs.rs/nom/5.0.1/search-index-20190820-1.39.0-nightly-bea0372a1.js
 
 License
 =======

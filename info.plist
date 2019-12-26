@@ -71,7 +71,7 @@
 				<key>runningsubtext</key>
 				<string>Fetching result...</string>
 				<key>script</key>
-				<string>/usr/local/bin/node ./src/index.js "{query}"</string>
+				<string>"$ALFRED_NODE_PATH" ./src/index.js "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -137,7 +137,7 @@
 				<key>runningsubtext</key>
 				<string>Fetching result...</string>
 				<key>script</key>
-				<string>/usr/local/bin/node ./src/index.js "serde {query}"</string>
+				<string>"$ALFRED_NODE_PATH" ./src/index.js "serde {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -185,6 +185,13 @@
 			<integer>50</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>ALFRED_NODE_PATH</key>
+		<string>/usr/local/bin/node</string>
+	</dict>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string>https://zeyi.fan/</string>
 </dict>
